@@ -1,1 +1,7 @@
-
+services:
+  app:
+    build: .
+    image: myimage
+    container_name: mycontainer
+    ports:
+      - "8080:8080"
